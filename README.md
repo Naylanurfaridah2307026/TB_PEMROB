@@ -100,7 +100,20 @@ Aplikasi ini menerapkan Multi-User Role untuk memisahkan fungsi operasional:
    - Akses di: `http://localhost:8000`
 
 ## 6. Tangkapan Layar (Screenshot)
-*(Silakan tambahkan tangkapan layar aplikasi di sini)*
+### Landingpage
+![Landingpage CineStream](screenshots/landingpage.png)
+### Dashboard
+![Dashboard CineStream](screenshots/dashboard.png)
+### Watchlist
+![Watchlist CineStream](screenshots/watchlist.png)
+### Profil
+![Profil CineStream](screenshots/profil.png)
+### Laman Kontrol Admin
+![Laman Kontrol Admin CineStream](screenshots/lamankontroladmin.png)
+### Laman Data Pengguna
+![Laman Data Pengguna CineStream](screenshots/lamandatapengguna.png)
+### Tambah Favorite
+![Tambah Favorite CineStream](screenshots/tambahfavorite.png)
 
 ---
 *Dibuat untuk memenuhi Tugas Besar mata kuliah Pemrograman Web.*
