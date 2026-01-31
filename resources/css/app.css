@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .glass {
+        @apply bg-white/5 backdrop-blur-xl border border-white/10;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+
+    .glass-dark {
+        @apply bg-gray-950/60 backdrop-blur-3xl border border-white/10;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .premium-input {
+        @apply bg-white/5 border-white/10 text-white placeholder-gray-500 focus:border-purple-500 focus:ring-purple-500 rounded-2xl transition-all duration-300 backdrop-blur-md;
+    }
+
+    .premium-button {
+        @apply bg-gradient-to-r from-purple-600 to-blue-600 text-white font-black uppercase tracking-[0.2em] rounded-2xl hover:scale-105 active:scale-95 shadow-xl shadow-purple-900/20 transition-all duration-300;
+    }
+
+    .animate-gradient-x {
+        background-size: 200% 200%;
+        animation: gradient-x 15s ease infinite;
+    }
+
+    @keyframes gradient-x {
+
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+}
+
+body {
+    background-color: #030712 !important;
+    /* bg-gray-950 */
+    color: #f3f4f6 !important;
+    /* text-gray-100 */
+}
